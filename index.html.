@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WayBets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff6a13;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .content {
+      padding: 20px;
+    }
+    .deposit-section {
+      background-color: #1a1a1a;
+      border: 1px solid #ff6a13;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .deposit-section h2 {
+      color: #ff6a13;
+    }
+    .deposit-details {
+      margin-top: 10px;
+    }
+    .deposit-details p {
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #ff6a13;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to WayBets</h1>
+    <p>Your Trusted Betting Partner</p>
+  </header>
+
+  <div class="content">
+    <section class="deposit-section">
+      <h2>Manual Deposit Instructions</h2>
+      <div class="deposit-details">
+        <p><strong>Send Money via Mpesa to:</strong></p>
+        <p><strong>Number:</strong> 0798242942</p>
+        <p><strong>Account Name:</strong> WayBets</p>
+        <p>After sending money, your deposit will be manually verified and credited to your account within a short time.</p>
+        <p><em>Ensure you send from your registered phone number.</em></p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 WayBets. All rights reserved.
+  </footer>
+
+</body>
+</html>
